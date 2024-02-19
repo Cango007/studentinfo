@@ -9,12 +9,16 @@ public class Student {
 @Id
 @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+
     private String name;
 
     private String quif;
 
     public Student(Integer id) {
         this.id = id;
+    }
+
+    public Student(int i, String dhoni, String cricter) {
     }
 
     public Integer getId() {
